@@ -17,8 +17,7 @@ void draw() {
 }
 
 void movePlane() {
-  float moveX = width/2;
-  float moveY = height/2;
+  float moveX, moveY;
   if (mousePressed) {
     moveX = mouseX - pmouseX; 
     moveY = mouseY - pmouseY; 
